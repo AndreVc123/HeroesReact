@@ -1,9 +1,9 @@
 
 
 
-## Aplicacion de Galeria de Heroes Marvel y DC Comics
+# Aplicacion de Galeria de Heroes Marvel y DC Comics
 
-# Creado en React
+## Creado con React
 
 Comando para instalar dependencias
 ```
