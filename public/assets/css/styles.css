@@ -1,0 +1,80 @@
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.card {
+    height: 512px;
+    max-height: 573px;
+    overflow: hidden;
+    width: 323px!important;
+    border-radius: 15px;
+    border: 1px solid black!important;
+}
+
+.card:nth-child(2n+1) {
+    margin-right: 0!important;
+}
+
+.contenedor {
+    height: 280px;
+    position: relative;
+    transition: all .2s ease;
+}
+
+.contenedor:hover {
+    height: 100%!important;
+}
+.contenedor:hover .texto {
+    display: none;
+}
+
+.img {
+    height: 280px;
+    image-resolution: 300;
+    transition: all .6s ease;
+    filter: blur(4px);
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.texto {
+    position: absolute;
+    top: 42%;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: .5rem 0;
+}
+
+.texto p {
+    margin: 0;
+}
+
+.img:hover {
+    height: 100%!important;
+    filter: blur(0);
+    object-fit: fill;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    margin-top: 1rem!important;
+}
+
+.primer-texto {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: .6rem;
+    border-radius: 20px;
+    margin: 0;
+    margin: .2rem 0;
+}
+
