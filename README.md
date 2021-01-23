@@ -1,7 +1,7 @@
 
 
 
-# Aplicacion de Galeria de Heroes Marvel y DC Comics
+# Aplicacion de Galería de Héroes Marvel y DC Comics
 
 ## Creado con React
 
