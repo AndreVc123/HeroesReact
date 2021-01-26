@@ -12,7 +12,7 @@ export default function HeroCard({
 
     return (
         
-        <div className=" card mb-4">
+        <div className=" card mb-4 animate__animated animate__backInLeft">
             <div className="contenedor">
                 <img className="card-img-top img" src={`./assets/heroes/${id}.jpg`} alt="Card image cap"></img>
                 <div className="texto">

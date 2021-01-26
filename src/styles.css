@@ -78,3 +78,64 @@
     margin: .2rem 0;
 }
 
+.contenedor-heroe {
+    padding: 1rem 2rem;
+    height: 100%;
+}
+
+.contenedor-heroe h3 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-heroe button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-heroe li:nth-child(2n+1) {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+.contenedor-heroe h5 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.contenedor-heroe p {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: .8rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-formulario {
+    display: block;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    flex: 7;
+}
+
+.search button {
+    flex: 1;
+}
+
+.tamano {
+    display: block;
+    width: 100%;
+}
+
